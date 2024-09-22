@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.producto p{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header, h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #333;
+    padding: 30px;
+    background-color: #d3d3d3;
+}
+
+main#album{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section.fila{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px; /* Ajusta el espacio entre los elementos */
+}
+
+.producto{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; /* Ajusta el margen para el espaciado entre productos */
+}
+
+.producto img{
+    width: 100%;
+    /* borda na parte superior */
+    padding-bottom: 10px;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+p.mensaje-especial {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 18px; 
+    color: #333; 
+    line-height: 1.6;
+    margin: 20px 0; 
+    padding: 10px; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+}
